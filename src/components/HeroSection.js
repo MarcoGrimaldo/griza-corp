@@ -52,7 +52,7 @@ function HeroSection({
             </div>
             <div className='col'>
               <div className='home__hero-img-wrapper'>
-                <img src={img} alt={alt} className='home__hero-img' />
+                <img src={img} alt={alt} className='home__hero-img' width="420px" />
               </div>
             </div>
           </div>
