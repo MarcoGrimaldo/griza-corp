@@ -32,7 +32,7 @@ function HeroSection() {
                     <Card.Text>
                         ¿Vendes telefonía o accesorios? ¡Necesitas esta página web! Incrementa la confianza a tus clientes.
                     </Card.Text>
-                    <Button variant="primary" href="https://www.marcogrimaldo.github.io/cat-griza/pomato/index.html">Ver ➡</Button>
+                    <Button variant="primary" href="https://marcogrimaldo.github.io/cat-griza/pomato/index.html">Ver ➡</Button>
                 </Card.Body>
             </Card>
         </Col>
@@ -44,7 +44,7 @@ function HeroSection() {
                     <Card.Text>
                         ¿Preparas alimentos? ¡Necesitas esta página web! Dale toda la información a tus clientes. 
                     </Card.Text>
-                    <Button variant="primary" href="https://www.marcogrimaldo.github.io/cat-griza/king-of-pasta/index.html">Ver ➡</Button>
+                    <Button variant="primary" href="https://marcogrimaldo.github.io/cat-griza/king-of-pasta/index.html">Ver ➡</Button>
                 </Card.Body>
             </Card>
         </Col>
@@ -56,7 +56,7 @@ function HeroSection() {
                     <Card.Text>
                         ¿Tu negocio es tradicional? ¡Necesitas esta página web! Pon tu negocio en la web para ser completamente formal.
                     </Card.Text>
-                    <Button variant="primary" href="https://www.marcogrimaldo.github.io/cat-griza/2092_shelf/index.html">Ver ➡</Button>
+                    <Button variant="primary" href="https://marcogrimaldo.github.io/cat-griza/2092_shelf/index.html">Ver ➡</Button>
                 </Card.Body>
             </Card>
         </Col>
@@ -70,7 +70,7 @@ function HeroSection() {
                     <Card.Text>
                         ¡Ahora en papel! Y que el cátalogo o menú de tu negocio esté en la Web.
                     </Card.Text>
-                    <Button variant="primary" href="https://www.marcogrimaldo.github.io/cat-griza/templatemo_539_simple_house/index.html">Ver ➡</Button>
+                    <Button variant="primary" href="https://marcogrimaldo.github.io/cat-griza/templatemo_539_simple_house/index.html">Ver ➡</Button>
                 </Card.Body>
             </Card>
         </Col>
@@ -82,7 +82,7 @@ function HeroSection() {
                     <Card.Text>
                         ¿Vendes accesorios de moda o ropa? ¡Necesitas esta página web! Da el siguiente paso en tu emprendimiento.
                     </Card.Text>
-                    <Button variant="primary" href="https://www.marcogrimaldo.github.io/cat-griza/2114_pixie/index.html">Ver ➡</Button>
+                    <Button variant="primary" href="https://marcogrimaldo.github.io/cat-griza/2114_pixie/index.html">Ver ➡</Button>
                 </Card.Body>
             </Card>
         </Col>
@@ -94,7 +94,7 @@ function HeroSection() {
                     <Card.Text>
                         Si los muebles y carpintería es lo tuyo, definitivamente necesitas esta página web.
                     </Card.Text>
-                    <Button variant="primary" href="https://www.marcogrimaldo.github.io/cat-griza/niture/index.html">Ver ➡</Button>
+                    <Button variant="primary" href="https://marcogrimaldo.github.io/cat-griza/niture/index.html">Ver ➡</Button>
                 </Card.Body>
             </Card>
         </Col >
@@ -108,7 +108,7 @@ function HeroSection() {
                     <Card.Text>
                         Haz crecer tu negocio con esta página web, tus clientes tendrán más confianza y podrán conocer más de tus productos.
                     </Card.Text>
-                    <Button variant="primary" href="https://www.marcogrimaldo.github.io/cat-griza/templatemo_546_sixteen_clothing/index.html">Ver ➡</Button>
+                    <Button variant="primary" href="https://marcogrimaldo.github.io/cat-griza/templatemo_546_sixteen_clothing/index.html">Ver ➡</Button>
                 </Card.Body>
             </Card>
         </Col>
@@ -120,7 +120,7 @@ function HeroSection() {
                     <Card.Text>
                         ¿Preparas alimentos? ¡Necesitas esta página web! Dale toda la información a tus clientes. 
                     </Card.Text>
-                    <Button variant="primary" href="https://www.marcogrimaldo.github.io/cat-griza/bootstrap-restaurant/index.html">Ver ➡</Button>
+                    <Button variant="primary" href="https://marcogrimaldo.github.io/cat-griza/bootstrap-restaurant/index.html">Ver ➡</Button>
                 </Card.Body>
             </Card>
         </Col>
@@ -132,7 +132,7 @@ function HeroSection() {
                     <Card.Text>
                         Consigue que tus clientes vean todos los productos que vendes y verder mucho más.
                     </Card.Text>
-                    <Button variant="primary" href="https://www.marcogrimaldo.github.io/cat-griza/pcoint/index.html">Ver ➡</Button>
+                    <Button variant="primary" href="https://marcogrimaldo.github.io/cat-griza/pcoint/index.html">Ver ➡</Button>
                 </Card.Body>
             </Card>
         </Col >
