@@ -14,7 +14,7 @@ function Pricing() {
         <div className='pricing__wrapper'>
           <h1 className='pricing__heading'>Precios 💸</h1>
           <div className='pricing__container'>
-            <Link to='/sign-up' className='pricing__container-card'>
+            <Link to='/' className='pricing__container-card'>
               <div className='pricing__container-cardInfo'>
                 <div className='icon'>
                   <FaFire />
@@ -32,7 +32,7 @@ function Pricing() {
                 </Button>
               </div>
             </Link>
-            <Link to='/sign-up' className='pricing__container-card'>
+            <Link to='/' className='pricing__container-card'>
               <div className='pricing__container-cardInfo'>
                 <div className='icon'>
                   <BsXDiamondFill />
@@ -50,7 +50,7 @@ function Pricing() {
                 </Button>
               </div>
             </Link>
-            <Link to='/sign-up' className='pricing__container-card'>
+            <Link to='/' className='pricing__container-card'>
               <div className='pricing__container-cardInfo'>
                 <div className='icon'>
                   <GiCrystalize />
