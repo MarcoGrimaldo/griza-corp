@@ -31,7 +31,7 @@ export const homeObjThree = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Rápido y Fácil',
-  headline: 'Checa nuestro catalogo 🎴',
+  headline: 'Nuestro catalogo 🎴',
   description:
     "Tenemos una variedad de ejemplos de páginas web, puedes inspirarte en alguna y ¡Nosotros lo adaptamos a tus necesidades! 😎",
   buttonLabel: 'Ver',

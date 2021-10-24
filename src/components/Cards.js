@@ -14,8 +14,8 @@ function HeroSection() {
         <Container>
             <h1 class="heading" style={{paddingTop: '4rem', textAlign: 'center'}}>Catálogo 🔎</h1>
     <Row style={{ paddingTop: '4rem'}}>
-        <Col>
-            <Card style={{ width: '18rem' }}>
+        <Col sm>
+            <Card >
                 <Card.Img variant="top" src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
@@ -27,8 +27,8 @@ function HeroSection() {
                 </Card.Body>
             </Card>
         </Col>
-        <Col>
-            <Card style={{ width: '18rem' }}>
+        <Col sm>
+            <Card >
                 <Card.Img variant="top" src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
@@ -40,8 +40,8 @@ function HeroSection() {
                 </Card.Body>
             </Card>
         </Col>
-        <Col>
-        <Card style={{ width: '18rem' }}>
+        <Col sm>
+        <Card >
                 <Card.Img variant="top" src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
@@ -55,8 +55,8 @@ function HeroSection() {
         </Col>
     </Row>
     <Row style={{ paddingTop: '4rem'}}>
-    <Col>
-            <Card style={{ width: '18rem' }}>
+    <Col sm>
+            <Card >
                 <Card.Img variant="top" src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
@@ -68,8 +68,8 @@ function HeroSection() {
                 </Card.Body>
             </Card>
         </Col>
-        <Col>
-            <Card style={{ width: '18rem' }}>
+        <Col sm>
+            <Card >
                 <Card.Img variant="top" src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
@@ -81,8 +81,8 @@ function HeroSection() {
                 </Card.Body>
             </Card>
         </Col>
-        <Col>
-        <Card style={{ width: '18rem' }}>
+        <Col sm>
+        <Card >
                 <Card.Img variant="top" src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
@@ -93,7 +93,7 @@ function HeroSection() {
                     <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
             </Card>
-        </Col>
+        </Col >
     </Row>
     </Container>
     </div>
