@@ -4,10 +4,7 @@ import { Button } from '../../Button';
 import { Link } from 'react-router-dom';
 import {
   FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin
+  FaWhatsapp,
 } from 'react-icons/fa';
 import Logo from '../../../images/gzlogo1.png';
 
@@ -44,48 +41,23 @@ function Footer() {
           </div>
           <small className='website-rights'>GRIZA © 2021</small>
           <div className='social-icons'>
-            <Link
+            <a
               className='social-icon-link'
-              to='/'
+              href='https://www.facebook.com/GrizaWeb'
               target='_blank'
               aria-label='Facebook'
             >
               <FaFacebook />
-            </Link>
-            <Link
+            </a>
+            
+            <a
               className='social-icon-link'
               to='/'
               target='_blank'
-              aria-label='Instagram'
+              aria-label='Whatsapp'
             >
-              <FaInstagram />
-            </Link>
-            <Link
-              className='social-icon-link'
-              to={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
-              }
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <FaYoutube />
-            </Link>
-            <Link
-              className='social-icon-link'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <FaTwitter />
-            </Link>
-            <Link
-              className='social-icon-link'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <FaLinkedin />
-            </Link>
+              <FaWhatsapp />
+            </a>
           </div>
         </div>
       </section>

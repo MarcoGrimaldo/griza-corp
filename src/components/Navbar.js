@@ -50,21 +50,30 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/services'
+                  to='/catalogo'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
-                  Paginas Web
+                  Ejemplos
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link
+                  to='/cotizar'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                  ¡Obten tu web!
                 </Link>
               </li>
               
               <li className='nav-btn'>
                 {button ? (
-                  <Link to='/sign-up' className='btn-link'>
+                  <Link to='/contacto' className='btn-link'>
                     <Button buttonStyle='btn--outline'>Contactanos</Button>
                   </Link>
                 ) : (
-                  <Link to='/sign-up' className='btn-link'>
+                  <Link to='/contacto' className='btn-link'>
                     <Button
                       buttonStyle='btn--outline'
                       buttonSize='btn--mobile'

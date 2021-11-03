@@ -1,7 +1,5 @@
 import React from 'react';
 import './HeroSection.css';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
 
 function HeroSection({
   lightBg,
@@ -13,7 +11,7 @@ function HeroSection({
   buttonLabel,
   img,
   alt,
-  imgStart
+  imgStart,
 }) {
   return (
     <>
@@ -43,11 +41,6 @@ function HeroSection({
                 >
                   {description}
                 </p>
-                <Link to='/'>
-                  <Button buttonSize='btn--wide' buttonColor='blue'>
-                    {buttonLabel}
-                  </Button>
-                </Link>
               </div>
             </div>
             <div className='col'>

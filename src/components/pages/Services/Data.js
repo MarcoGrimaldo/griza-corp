@@ -2,13 +2,13 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Exclusive Access',
-  headline: 'Unlimited Transactions with zero fees',
+  topLine: '¡Descuentos Exclusivos! 🔮',
+  headline: 'Creamos tu Página Web 🤓💻',
   description:
-    'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
-  buttonLabel: 'Get Started',
+    '¡Haz crecer tu negocio con nosotros, creamos la página web de tu negocio a corde a tus necesidades! 🙌🏻',
+  buttonLabel: 'Comenzar',
   imgStart: '',
-  img: 'images/svg-1.svg',
+  img: 'https://cdn-icons-png.flaticon.com/512/4481/4481273.png',
   alt: 'Credit Card'
 };
 
@@ -16,13 +16,13 @@ export const homeObjTwo = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: '100% SECURE',
-  headline: 'Stay protected 24/7 anywhere anytime',
+  topLine: 'COTIZA',
+  headline: '¡Contáctanos! 👨🏻‍💻',
   description:
-    'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-  buttonLabel: 'Learn More',
+    'Si ya tienes una idea de lo que buscas y necesitas, ¡Lo hacemos realidad! 🎉. \n\n Contactanos aquí con los siguientes enlaces 👇',
+  buttonLabel: 'Contacto',
   imgStart: '',
-  img: 'images/svg-5.svg',
+  img: 'https://cdn-icons-png.flaticon.com/512/4481/4481293.png',
   alt: 'Vault'
 };
 
@@ -30,13 +30,13 @@ export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'EASY SETUP',
-  headline: 'Super fast and simple onboarding process',
+  topLine: 'Rápido y Fácil',
+  headline: 'Nuestro catalogo 🎴',
   description:
-    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-  buttonLabel: 'Start Now',
+    "Tenemos una variedad de ejemplos de páginas web, puedes inspirarte en alguna y ¡Nosotros lo adaptamos a tus necesidades! 😎",
+  buttonLabel: 'Ver',
   imgStart: 'start',
-  img: 'images/svg-7.svg',
+  img: 'https://cdn-icons-png.flaticon.com/512/4481/4481144.png',
   alt: 'Vault'
 };
 

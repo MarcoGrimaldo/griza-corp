@@ -19,7 +19,7 @@ export const homeObjTwo = {
   topLine: 'COTIZA',
   headline: '¡Contáctanos! 👨🏻‍💻',
   description:
-    'Si ya tienes una idea de lo que buscas y necesitas, ¡Lo hacemos realidad! 🎉',
+    'Si ya tienes una idea de lo que buscas y necesitas, ¡Lo hacemos realidad! 🎉. \n\n Contactanos aquí con los siguientes enlaces 👇',
   buttonLabel: 'Contacto',
   imgStart: '',
   img: 'https://cdn-icons-png.flaticon.com/512/4481/4481293.png',

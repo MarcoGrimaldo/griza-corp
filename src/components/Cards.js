@@ -19,7 +19,7 @@ import Res from '../images/Restaurante.png'
 
 function HeroSection() {
   return (
-    <div style={{backgroundColor:'#1c2237'}}>
+    <div style={{backgroundColor:'#1c2237', paddingBottom: '8rem'}} id="catalogo_">
         
         <Container>
             <h1 class="heading" style={{paddingTop: '4rem', textAlign: 'center'}}>Catálogo 🔎</h1>
