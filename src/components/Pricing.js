@@ -1,17 +1,21 @@
-import React,{useState} from 'react';
+import React,{useState,useCallback} from 'react';
 import { Button } from './Button';
 import './Pricing.css';
 import { FaFire } from 'react-icons/fa';
 import { BsXDiamondFill } from 'react-icons/bs';
 import { GiCrystalize } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
-import { Link } from 'react-router-dom';
+import { Link,useHistory } from 'react-router-dom';
 import {Modal, Button as Button2} from 'react-bootstrap';
 
 function Pricing() {
 
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
+
+  const history = useHistory();
+  const handleOnClick = useCallback(() => history.push('/cotizar'), [history]);
+
 
   const handleShow = (modalType) => 
   {
@@ -104,7 +108,7 @@ function Pricing() {
             <Button2 variant="secondary" onClick={handleClose}>
               Cerrar
             </Button2>
-            <Button2 variant="primary" onClick={handleClose}>
+            <Button2 variant="primary" onClick={handleOnClick}>
               ¡Comprar!
             </Button2>
           </Modal.Footer>

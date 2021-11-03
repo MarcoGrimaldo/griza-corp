@@ -1,10 +1,15 @@
-import React from 'react';
-import './CotizaBtn.css'
+import React, {useCallback} from 'react';
+import './CotizaBtn.css';
+import {useHistory} from 'react-router-dom';
 
 const CotizaBtn = () => {
+
+    const history = useHistory();
+    const handleOnClick = useCallback(() => history.push('/cotizar'), [history]);
+
     return (
         <div className="btn-back">
-            <a  class="btn-track">
+            <a  className="btn-track" onClick={handleOnClick}>
             <div class="--icon">
                 <div class="circle-inner"></div>
                 <div class="circle-outer"></div>
