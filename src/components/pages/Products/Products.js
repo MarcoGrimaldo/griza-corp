@@ -23,6 +23,7 @@ import { GiCrystalize } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
 import { Link } from 'react-router-dom';
 import { Button as Button2} from 'react-bootstrap';
+import { HashLink } from 'react-router-hash-link';
 
 import {
   FaFacebook,
@@ -65,7 +66,7 @@ function Products() {
                     <Card.Text>
                         ¿Vendes telefonía o accesorios? ¡Necesitas esta página web! Incrementa la confianza a tus clientes.
                     </Card.Text>
-                    <Button2 variant="primary" onClick={() => setpageWb('Telefonía')}>Seleccionar ✅</Button2>
+                    <HashLink to="/cotizar#precio" ><Button2 variant="primary" onClick={() => setpageWb('Telefonía')}>Seleccionar ✅</Button2></HashLink>
                 </Card.Body>
             </Card>
         </Col>
@@ -77,7 +78,7 @@ function Products() {
                     <Card.Text>
                         ¿Preparas alimentos? ¡Necesitas esta página web! Dale toda la información a tus clientes. 
                     </Card.Text>
-                    <Button2 variant="primary" onClick={() => setpageWb('Comida')}>Seleccionar ✅</Button2>
+                    <HashLink to="/cotizar#precio" ><Button2 variant="primary" onClick={() => setpageWb('Comida')}>Seleccionar ✅</Button2></HashLink>
                 </Card.Body>
             </Card>
         </Col>
@@ -89,7 +90,7 @@ function Products() {
                     <Card.Text>
                         ¿Tu negocio es tradicional? ¡Necesitas esta página web! Pon tu negocio en la web para ser completamente formal.
                     </Card.Text>
-                    <Button2 variant="primary" onClick={() => setpageWb('Energía')}>Seleccionar ✅</Button2>
+                    <HashLink to="/cotizar#precio" ><Button2 variant="primary" onClick={() => setpageWb('Energía')}>Seleccionar ✅</Button2></HashLink>
                 </Card.Body>
             </Card>
         </Col>
@@ -103,7 +104,7 @@ function Products() {
                     <Card.Text>
                         ¡Ahora en papel! Y que el cátalogo o menú de tu negocio esté en la Web.
                     </Card.Text>
-                    <Button2 variant="primary" onClick={() => setpageWb('Menú')}>Seleccionar ✅</Button2>
+                    <HashLink to="/cotizar#precio" ><Button2 variant="primary" onClick={() => setpageWb('Menú')}>Seleccionar ✅</Button2></HashLink>
                 </Card.Body>
             </Card>
         </Col>
@@ -115,7 +116,7 @@ function Products() {
                     <Card.Text>
                         ¿Vendes accesorios de moda o ropa? ¡Necesitas esta página web! Da el siguiente paso en tu emprendimiento.
                     </Card.Text>
-                    <Button2 variant="primary" onClick={() => setpageWb('Moda')}>Seleccionar ✅</Button2>
+                    <HashLink to="/cotizar#precio" ><Button2 variant="primary" onClick={() => setpageWb('Moda')}>Seleccionar ✅</Button2></HashLink>
                 </Card.Body>
             </Card>
         </Col>
@@ -127,7 +128,7 @@ function Products() {
                     <Card.Text>
                         Si los muebles y carpintería es lo tuyo, definitivamente necesitas esta página web.
                     </Card.Text>
-                    <Button2 variant="primary" onClick={() => setpageWb('Muebles')}>Seleccionar ✅</Button2>
+                    <HashLink to="/cotizar#precio" ><Button2 variant="primary" onClick={() => setpageWb('Muebles')}>Seleccionar ✅</Button2></HashLink>
                 </Card.Body>
             </Card>
         </Col >
@@ -141,7 +142,7 @@ function Products() {
                     <Card.Text>
                         Haz crecer tu negocio con esta página web, tus clientes tendrán más confianza y podrán conocer más de tus productos.
                     </Card.Text>
-                    <Button2 variant="primary" onClick={() => setpageWb('Negocio')}>Seleccionar ✅</Button2>
+                    <HashLink to="/cotizar#precio" ><Button2 variant="primary" onClick={() => setpageWb('Negocio')}>Seleccionar ✅</Button2></HashLink>
                 </Card.Body>
             </Card>
         </Col>
@@ -153,7 +154,7 @@ function Products() {
                     <Card.Text>
                         ¿Preparas alimentos? ¡Necesitas esta página web! Dale toda la información a tus clientes. 
                     </Card.Text>
-                    <Button2 variant="primary" onClick={() => setpageWb('Restaurante')}>Seleccionar ✅</Button2>
+                    <HashLink to="/cotizar#precio" ><Button2 variant="primary" onClick={() => setpageWb('Restaurante')}>Seleccionar ✅</Button2></HashLink>
                 </Card.Body>
             </Card>
         </Col>
@@ -165,7 +166,7 @@ function Products() {
                     <Card.Text>
                         Consigue que tus clientes vean todos los productos que vendes y verder mucho más.
                     </Card.Text>
-                    <Button2 variant="primary" onClick={() => setpageWb('Productos')}>Seleccionar ✅</Button2>
+                    <HashLink to="/cotizar#precio" ><Button2 variant="primary" onClick={() => setpageWb('Productos')}>Seleccionar ✅</Button2></HashLink>
                 </Card.Body>
             </Card>
         </Col >
@@ -173,7 +174,7 @@ function Products() {
     </Container>
     </div>
     <IconContext.Provider value={{ color: '#fff', size: 64 }}>
-      <div className='pricing__section'>
+      <div className='pricing__section' id="precio">
         <div className='pricing__wrapper'>
           <h1 className='pricing__heading'>Selecciona el paquete 📦</h1>
           <div className='pricing__container'>
@@ -183,16 +184,16 @@ function Products() {
                   <FaFire />
                 </div>
                 <h3>Rápido</h3>
-                <h4>$99</h4>
-                <p>USD</p>
+                <h4>$1,999</h4>
+                <p>MXN</p>
                 <ul className='pricing__container-features'>
                   <li>Página Web</li>
                   <li>3 Meses de Soporte</li>
-                  <li>$1,999 MXN</li>
+                  <li>$99 USD</li>
                 </ul>
-                <Button buttonSize='btn--wide' buttonColor='primary' onClick={() => setpackageWb('Rápido')}>
+                <HashLink to="/cotizar#contactoA" ><Button buttonSize='btn--wide' buttonColor='primary' onClick={() => setpackageWb('Rápido')}>
                 Seleccionar ✅
-                </Button>
+                </Button></HashLink>
               </div>
             </Link>
             <Link to='/cotizar' className='pricing__container-card'>
@@ -201,16 +202,16 @@ function Products() {
                   <BsXDiamondFill />
                 </div>
                 <h3>Normal</h3>
-                <h4>$169</h4>
-                <p>USD</p>
+                <h4>$3,499</h4>
+                <p>MXN</p>
                 <ul className='pricing__container-features'>
                   <li>Página Web Customizada</li>
                   <li>6 Meses de Soporte</li>
-                  <li>$3,499 MXN</li>
+                  <li>$169 USD</li>
                 </ul>
-                <Button buttonSize='btn--wide' buttonColor='blue' onClick={() => setpackageWb('Normal')}>
+                <HashLink to="/cotizar#contactoA" ><Button buttonSize='btn--wide' buttonColor='blue' onClick={() => setpackageWb('Normal')}>
                 Seleccionar ✅
-                </Button>
+                </Button></HashLink>
               </div>
             </Link>
             <Link to='/cotizar' className='pricing__container-card'>
@@ -219,16 +220,16 @@ function Products() {
                   <GiCrystalize />
                 </div>
                 <h3>Diamante</h3>
-                <h4>$399</h4>
-                <p>USD</p>
+                <h4>$7,999</h4>
+                <p>MXN</p>
                 <ul className='pricing__container-features'>
                   <li>Diseño Original</li>
                   <li>12 Meses de Soporte</li>
-                  <li>$7,999 MXN</li>
+                  <li> $399 USD</li>
                 </ul>
-                <Button buttonSize='btn--wide' buttonColor='primary' onClick={() => setpackageWb('Diamante')} href="#contact">
+                <HashLink to="/cotizar#contactoA" ><Button buttonSize='btn--wide' buttonColor='primary' onClick={() => setpackageWb('Diamante')} href="#contact">
                 Seleccionar ✅
-                </Button>
+                </Button></HashLink>
               </div>
             </Link>
           </div>
@@ -239,7 +240,7 @@ function Products() {
       padding: '2rem',
       textAlign: 'center',
       backgroundColor: '#1c2237'
-    }}>
+    }} id="contactoA">
       <h1 class="heading2">Has seleccionado la página: <u>{pageWb}</u></h1>
       <h1 class="heading2">Y el paquete: <u>{packageWb}</u></h1>  
       <br/><br/>

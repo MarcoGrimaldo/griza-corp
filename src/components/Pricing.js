@@ -49,12 +49,12 @@ function Pricing() {
                   <FaFire />
                 </div>
                 <h3>Rápido</h3>
-                <h4>$99</h4>
-                <p>USD</p>
+                <h4>$1,999</h4>
+                <p>MXN</p>
                 <ul className='pricing__container-features'>
                   <li>Página Web</li>
                   <li>3 Meses de Soporte</li>
-                  <li>$1,999 MXN</li>
+                  <li>$99 USD</li>
                 </ul>
                 <Button buttonSize='btn--wide' buttonColor='primary' onClick={() => handleShow('p1')}>
                 ¿Qué incluye?
@@ -67,12 +67,12 @@ function Pricing() {
                   <BsXDiamondFill />
                 </div>
                 <h3>Normal</h3>
-                <h4>$169</h4>
-                <p>USD</p>
+                <h4>$3,499 MXN</h4>
+                <p>MXN</p>
                 <ul className='pricing__container-features'>
                   <li>Página Web Customizada</li>
                   <li>6 Meses de Soporte</li>
-                  <li>$3,499 MXN</li>
+                  <li>$169 USD</li>
                 </ul>
                 <Button buttonSize='btn--wide' buttonColor='blue' onClick={() => handleShow('p2')}>
                 ¿Qué incluye?
@@ -85,12 +85,12 @@ function Pricing() {
                   <GiCrystalize />
                 </div>
                 <h3>Diamante</h3>
-                <h4>$399</h4>
-                <p>USD</p>
+                <h4>$7,999 MXN</h4>
+                <p>MXN</p>
                 <ul className='pricing__container-features'>
                   <li>Diseño Original</li>
                   <li>12 Meses de Soporte</li>
-                  <li>$7,999 MXN</li>
+                  <li>$399 USD</li>
                 </ul>
                 <Button buttonSize='btn--wide' buttonColor='primary' onClick={() => handleShow('p3')}>
                 ¿Qué incluye?
