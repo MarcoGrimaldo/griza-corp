@@ -9,7 +9,7 @@ const CotizaBtn = () => {
 
     return (
         <div className="btn-back">
-            <a  className="btn-track" onClick={handleOnClick}>
+            <button  className="btn-track" onClick={handleOnClick}>
             <div class="--icon">
                 <div class="circle-inner"></div>
                 <div class="circle-outer"></div>
@@ -23,7 +23,7 @@ const CotizaBtn = () => {
                 </svg>
             </div>
             <div class="--text">¡Ya Quiero mi página web! 🛒</div>
-            </a>
+            </button>
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroSection from '../../HeroSection';
 import Cards from '../../Cards';
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
+import { homeObjOne, homeObjTwo, homeObjThree } from './Data';
 import Pricing from '../../Pricing';
 import CotizaBtn from '../../CotizaBtn'
 

@@ -35,7 +35,7 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-            <img src={Logo} width="30px"></img>
+            <img src={Logo} width="30px" alt="logo"></img>
               riza
             </Link>
           </div>
@@ -44,7 +44,6 @@ function Footer() {
             <a
               className='social-icon-link'
               href='https://www.facebook.com/GrizaWeb'
-              target='_blank'
               aria-label='Facebook'
             >
               <FaFacebook />
@@ -52,8 +51,7 @@ function Footer() {
             
             <a
               className='social-icon-link'
-              to='/'
-              target='_blank'
+              href='https://api.whatsapp.com/send?phone=5215623737294'
               aria-label='Whatsapp'
             >
               <FaWhatsapp />
