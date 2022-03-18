@@ -19,15 +19,15 @@ function Pricing() {
 
   const handleShow = (modalType) => 
   {
-    if(modalType == "p1")
+    if(modalType === "p1")
     {
       setmodalData({title: 'Paquete Rápido',info:'💻Página web del catálogo, personalizada para tu negocio.  \n\n🌐Página web ya montada en Internet. \n\n📱Cotización de tu dominio (tu-negocio.com). \n\n🔐Certificado SSL (Tu página segura). \n\n🙋‍♂️Cambios durante 3 meses.(Soporte)'})
     }
-    if(modalType == "p2")
+    if(modalType === "p2")
     {
       setmodalData({title: 'Paquete Normal',info:'💻Página web con base en alguna del catálogo, personalizada a tu gusto, con nuevas secciones, diseños personalizados, etc... Los requerimientos que necesites dentro del Front-End. \n\n🌐Página web ya montada en Internet. \n\n📱Dominio de página web incluido (tu-negocio.com). \n\n🔐Certificado SSL (Tu página segura). \n\n🙋‍♂️Cambios durante 6 meses.(Soporte)'})
     }
-    if(modalType == "p3")
+    if(modalType === "p3")
     {
       setmodalData({title: 'Paquete Diamante',info:'💻Página web desde 0, diseño completamente personalizado, de acuerdo a tus necesidades y gustos. Podemos implementar lo que gustes, pero el precio puede incrementar de acuerdo a la complejidad de los requerimientos. 😅 \n\n🌐Página web ya montada en Internet. \n\n📱Dominio de página web incluido (tu-negocio.com). \n\n🔐Certificado SSL (Tu página segura). \n\n🙋‍♂️Cambios durante 12 meses.(Soporte)'})
     }
