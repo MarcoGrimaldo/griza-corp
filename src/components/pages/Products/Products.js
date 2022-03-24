@@ -1,15 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Card } from "react-bootstrap";
 
-import Cel from "../../../images/celulares.png";
-import Com from "../../../images/Comida.png";
-import Ene from "../../../images/Energia.png";
-import Men from "../../../images/Menu.png";
-import Mod from "../../../images/Moda.png";
-import Mueb from "../../../images/Muebles.png";
-import Neg from "../../../images/NegocioIMG.png";
-import Teg from "../../../images/tecnologia.png";
-import Res from "../../../images/Restaurante.png";
+import styles from "./Products.module.css";
 
 import { Button } from "../../Button";
 import { FaFire } from "react-icons/fa";
@@ -21,6 +13,8 @@ import { Button as Button2 } from "react-bootstrap";
 import { HashLink } from "react-router-hash-link";
 
 import { FaFacebook, FaWhatsapp } from "react-icons/fa";
+
+import { cardsData } from "../../../services/data";
 
 function Products() {
   const [pageWb, setpageWb] = useState("(ninguno)");
@@ -59,192 +53,27 @@ function Products() {
           >
             Selecciona una página base y sigue bajando 👇{" "}
           </h4>
-          <Row style={{ paddingTop: "4rem" }}>
-            <Col sm>
-              <Card>
-                <Card.Img variant="top" src={Cel} />
-                <Card.Body>
-                  <Card.Title>Telefonía 📱</Card.Title>
-                  <Card.Text>
-                    ¿Vendes telefonía o accesorios? ¡Necesitas esta página web!
-                    Incrementa la confianza a tus clientes.
-                  </Card.Text>
-                  <HashLink to="/cotizar#precio">
-                    <Button2
-                      variant="primary"
-                      onClick={() => setpageWb("Telefonía")}
-                    >
-                      Seleccionar ✅
-                    </Button2>
-                  </HashLink>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col sm>
-              <Card>
-                <Card.Img variant="top" src={Com} />
-                <Card.Body>
-                  <Card.Title>Comida 🍝</Card.Title>
-                  <Card.Text>
-                    ¿Preparas alimentos? ¡Necesitas esta página web! Dale toda
-                    la información a tus clientes.
-                  </Card.Text>
-                  <HashLink to="/cotizar#precio">
-                    <Button2
-                      variant="primary"
-                      onClick={() => setpageWb("Comida")}
-                    >
-                      Seleccionar ✅
-                    </Button2>
-                  </HashLink>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col sm>
-              <Card>
-                <Card.Img variant="top" src={Ene} />
-                <Card.Body>
-                  <Card.Title>Energía ⚡</Card.Title>
-                  <Card.Text>
-                    ¿Tu negocio es tradicional? ¡Necesitas esta página web! Pon
-                    tu negocio en la web para ser completamente formal.
-                  </Card.Text>
-                  <HashLink to="/cotizar#precio">
-                    <Button2
-                      variant="primary"
-                      onClick={() => setpageWb("Energía")}
-                    >
-                      Seleccionar ✅
-                    </Button2>
-                  </HashLink>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-          <Row style={{ paddingTop: "4rem" }}>
-            <Col sm>
-              <Card>
-                <Card.Img variant="top" src={Men} />
-                <Card.Body>
-                  <Card.Title>Menú 🍱</Card.Title>
-                  <Card.Text>
-                    ¡Ahora en papel! Y que el cátalogo o menú de tu negocio esté
-                    en la Web.
-                  </Card.Text>
-                  <HashLink to="/cotizar#precio">
-                    <Button2
-                      variant="primary"
-                      onClick={() => setpageWb("Menú")}
-                    >
-                      Seleccionar ✅
-                    </Button2>
-                  </HashLink>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col sm>
-              <Card>
-                <Card.Img variant="top" src={Mod} />
-                <Card.Body>
-                  <Card.Title>Moda 💃</Card.Title>
-                  <Card.Text>
-                    ¿Vendes accesorios de moda o ropa? ¡Necesitas esta página
-                    web! Da el siguiente paso en tu emprendimiento.
-                  </Card.Text>
-                  <HashLink to="/cotizar#precio">
-                    <Button2
-                      variant="primary"
-                      onClick={() => setpageWb("Moda")}
-                    >
-                      Seleccionar ✅
-                    </Button2>
-                  </HashLink>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col sm>
-              <Card>
-                <Card.Img variant="top" src={Mueb} />
-                <Card.Body>
-                  <Card.Title>Muebles 🪑</Card.Title>
-                  <Card.Text>
-                    Si los muebles y carpintería es lo tuyo, definitivamente
-                    necesitas esta página web.
-                  </Card.Text>
-                  <HashLink to="/cotizar#precio">
-                    <Button2
-                      variant="primary"
-                      onClick={() => setpageWb("Muebles")}
-                    >
-                      Seleccionar ✅
-                    </Button2>
-                  </HashLink>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-          <Row style={{ paddingTop: "4rem" }}>
-            <Col sm>
-              <Card>
-                <Card.Img variant="top" src={Neg} />
-                <Card.Body>
-                  <Card.Title>Negocio 💲</Card.Title>
-                  <Card.Text>
-                    Haz crecer tu negocio con esta página web, tus clientes
-                    tendrán más confianza y podrán conocer más de tus productos.
-                  </Card.Text>
-                  <HashLink to="/cotizar#precio">
-                    <Button2
-                      variant="primary"
-                      onClick={() => setpageWb("Negocio")}
-                    >
-                      Seleccionar ✅
-                    </Button2>
-                  </HashLink>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col sm>
-              <Card>
-                <Card.Img variant="top" src={Res} />
-                <Card.Body>
-                  <Card.Title>Restaurante 🌮</Card.Title>
-                  <Card.Text>
-                    ¿Preparas alimentos? ¡Necesitas esta página web! Dale toda
-                    la información a tus clientes.
-                  </Card.Text>
-                  <HashLink to="/cotizar#precio">
-                    <Button2
-                      variant="primary"
-                      onClick={() => setpageWb("Restaurante")}
-                    >
-                      Seleccionar ✅
-                    </Button2>
-                  </HashLink>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col sm>
-              <Card>
-                <Card.Img variant="top" src={Teg} />
-                <Card.Body>
-                  <Card.Title>Productos 📺</Card.Title>
-                  <Card.Text>
-                    Consigue que tus clientes vean todos los productos que
-                    vendes y verder mucho más.
-                  </Card.Text>
-                  <HashLink to="/cotizar#precio">
-                    <Button2
-                      variant="primary"
-                      onClick={() => setpageWb("Productos")}
-                    >
-                      Seleccionar ✅
-                    </Button2>
-                  </HashLink>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
+          <div className={styles.cardsContainer}>
+            {cardsData.map((data) => {
+              return (
+                <Card className={styles.cardCustom}>
+                  <Card.Img variant="top" src={data.img} />
+                  <Card.Body>
+                    <Card.Title>{data.title}</Card.Title>
+                    <Card.Text>{data.text}</Card.Text>
+                    <HashLink to="/cotizar#precio">
+                      <Button2
+                        variant="primary"
+                        onClick={() => setpageWb(data.type)}
+                      >
+                        Seleccionar ✅
+                      </Button2>
+                    </HashLink>
+                  </Card.Body>
+                </Card>
+              );
+            })}
+          </div>
         </Container>
       </div>
       <IconContext.Provider value={{ color: "#fff", size: 64 }}>
@@ -345,7 +174,9 @@ function Products() {
         </h1>
         <br />
         <br />
-        <h4 className="heading2">Selecciona en que plataforma quieres continuar</h4>
+        <h4 className="heading2">
+          Selecciona en que plataforma quieres continuar
+        </h4>
         <a
           className="social-icon-link"
           href="http://m.me/GrizaWeb"
