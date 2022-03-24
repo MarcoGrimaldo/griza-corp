@@ -48,13 +48,13 @@ function Products() {
       >
         <Container>
           <h1
-            class="heading"
+            className="heading"
             style={{ paddingTop: "4rem", textAlign: "center" }}
           >
             ¡Felicidades! Estás a pocos pasos de tener tu web ⚡
           </h1>
           <h4
-            class="heading2"
+            className="heading2"
             style={{ paddingTop: "4rem", textAlign: "center" }}
           >
             Selecciona una página base y sigue bajando 👇{" "}
@@ -337,15 +337,15 @@ function Products() {
         }}
         id="contactoA"
       >
-        <h1 class="heading2">
+        <h1 className="heading2">
           Has seleccionado la página: <u>{pageWb}</u>
         </h1>
-        <h1 class="heading2">
+        <h1 className="heading2">
           Y el paquete: <u>{packageWb}</u>
         </h1>
         <br />
         <br />
-        <h4 class="heading2">Selecciona en que plataforma quieres continuar</h4>
+        <h4 className="heading2">Selecciona en que plataforma quieres continuar</h4>
         <a
           className="social-icon-link"
           href="http://m.me/GrizaWeb"
@@ -372,7 +372,7 @@ function Products() {
         <br />
         <br />
         <br />
-        <h4 class="heading3">
+        <h4 className="heading3">
           ¡Selecciona la plataforma para ponerte en contacto con nosotros y
           afinar todos los detalles! 🙌
         </h4>
