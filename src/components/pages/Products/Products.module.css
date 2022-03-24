@@ -1,0 +1,13 @@
+.cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardCustom{
+    max-width: 30%;
+    margin: 10px;
+}
+@media (max-width: 750px) {
+    .cardCustom{
+        max-width: 100%;
+    }
+  }
